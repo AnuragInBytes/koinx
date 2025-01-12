@@ -18,7 +18,7 @@ const cards = [
 
 export const BitcoinInfo: React.FC = () => {
   return (
-    <div className="flex flex-col items-start mx-2 mb-3 pt-6 pl-6 bg-white rounded-lg pb-[663px] max-md:pb-24 max-md:pl-5">
+    <div className="flex flex-col items-start mr-2 mb-4 pt-6 pl-6 bg-white rounded-lg pb-[663px] max-md:pb-24 max-md:pl-5">
       <div className="flex flex-col w-full h-[308px]">
         <div className="flex flex-col items-start pr-20 pb-5 w-full max-md:pr-5">
           <h1 className="z-10 text-2xl font-semibold leading-tight text-slate-900">

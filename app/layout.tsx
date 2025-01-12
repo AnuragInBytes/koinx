@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
+import KoinXCard from "@/components/sidebar-koinx/KoinXCard";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,10 +31,12 @@ export default function RootLayout({
         <NavBar />
           <main className="relative overflow-hidden xl:mx-20 lg:mx-3">
             <div className="w-full bg-blue-400 flex max-sm:flex-col max-sm:justify-center max-sm:items-center">
-              <div className="w-[60%] bg-green-300">
+              <div className="w-[70%] mt-3 bg-green-300">
                 {children}
               </div>
-              <div className="bg-red-300 w-[40%]">side bar</div>
+              <div className="bg-red-300 mt-3 w-[30%]">
+                <KoinXCard />
+              </div>
             </div>
           </main>
         <Footer />

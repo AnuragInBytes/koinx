@@ -43,3 +43,10 @@ export interface TeamMemberProps {
 export interface TeamMemberCardProps {
   member: TeamMemberProps;
 }
+
+export interface CoinData {
+  name: string;
+  symbol: string;
+  percentage: number;
+  iconUrl: string;
+}

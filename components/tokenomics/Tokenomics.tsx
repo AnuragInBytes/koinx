@@ -19,7 +19,7 @@ export function Tokenomics() {
   ];
 
   return (
-    <div className="flex flex-col mx-2 mb-3 pt-6 pb-16 pl-6 bg-white rounded-lg max-md:pl-5">
+    <div className="flex flex-col mr-2 mb-4 pt-6 pb-16 pl-6 bg-white rounded-lg max-md:pl-5">
       <div className="z-10 py-px w-full text-2xl font-semibold leading-tight whitespace-nowrap text-slate-900 max-md:pr-5">
         Tokenomics
       </div>

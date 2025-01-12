@@ -27,7 +27,7 @@ const analystData = [
 
 export const SentimentAnalysis: React.FC = () => {
   return (
-    <div className="flex flex-col items-start mx-2 mb-3 pt-6 pb-11 pl-6 bg-white rounded-lg max-md:pl-5">
+    <div className="flex flex-col items-start mr-2 mb-4 pt-6 pb-11 pl-6 bg-white rounded-lg max-md:pl-5">
 {/* <div className="flex flex-col pl-2.5 -mb-40 max-md:mb-2.5 max-md:max-w-full"> */}
       <div className="flex relative flex-col max-md:max-w-full">
         <div className="py-px w-full text-2xl font-semibold leading-tight whitespace-nowrap text-slate-900 max-md:pr-5">
