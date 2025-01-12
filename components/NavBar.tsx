@@ -5,7 +5,7 @@ import { NAV_LINKS } from '@/constants'
 
 const NavBar = () => {
   return (
-    <nav className="flex flex-wrap gap-10 justify-between items-center px-14 bg-white border-b border-solid shadow-sm border-b-zinc-200 max-md:px-5">
+    <nav className="flex flex-wrap gap-10 justify-between items-center bg-white border-b border-solid shadow-sm border-b-zinc-200 px-20 max-md:px-5">
       <div className="flex gap-10 items-center my-auto min-h-[72px]">
         <Image
           loading="lazy"

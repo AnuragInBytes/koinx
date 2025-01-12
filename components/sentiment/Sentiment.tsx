@@ -27,7 +27,7 @@ const analystData = [
 
 export const SentimentAnalysis: React.FC = () => {
   return (
-    <div className="flex flex-col items-start pt-6 pb-11 pl-6 bg-white rounded-lg max-w-[881px] max-md:pl-5">
+    <div className="flex flex-col items-start mx-2 mb-3 pt-6 pb-11 pl-6 bg-white rounded-lg max-md:pl-5">
 {/* <div className="flex flex-col pl-2.5 -mb-40 max-md:mb-2.5 max-md:max-w-full"> */}
       <div className="flex relative flex-col max-md:max-w-full">
         <div className="py-px w-full text-2xl font-semibold leading-tight whitespace-nowrap text-slate-900 max-md:pr-5">
@@ -50,7 +50,7 @@ export const SentimentAnalysis: React.FC = () => {
       <div className="flex flex-col pb-6 mt-8 max-w-full w-[710px]">
         <div className="flex flex-wrap pr-[519px] max-md:pr-5">
           <div className="my-auto text-xl font-semibold leading-none text-gray-700">
-            Analyst Estimates <IoIosInformationCircle />
+            Analyst Estimates {/* <IoIosInformationCircle /> */}
           </div>
         </div>
         <div className="flex flex-wrap mt-6 font-medium whitespace-nowrap">

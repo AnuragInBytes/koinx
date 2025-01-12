@@ -28,8 +28,13 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <NavBar />
-          <main className="relative overflow-hidden px-5">
-            {children}
+          <main className="relative overflow-hidden xl:mx-20 lg:mx-3">
+            <div className="w-full bg-blue-400 flex max-sm:flex-col max-sm:justify-center max-sm:items-center">
+              <div className="w-[60%] bg-green-300">
+                {children}
+              </div>
+              <div className="bg-red-300 w-[40%]">side bar</div>
+            </div>
           </main>
         <Footer />
       </body>

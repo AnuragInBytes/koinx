@@ -25,7 +25,7 @@ const teamMembers: TeamMemberProps[] = [
 
 export const Team: React.FC = () => {
   return (
-    <div className="flex flex-col items-start pt-6 pb-11 pl-6 bg-white rounded-lg max-w-[881px] max-md:pl-5">
+    <div className="flex flex-col items-start mx-2 mb-3 pt-6 pb-11 pl-6 bg-white rounded-lg max-md:pl-5">
       <h1 className="z-10 py-px w-full text-2xl font-semibold leading-tight whitespace-nowrap text-slate-900 max-md:pr-5">
         Team
       </h1>
